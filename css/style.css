@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5% /*font size= 10px */;
+    font-family: 'Merienda', cursive;
+    background-color: #413F42;
+
+}
+header {
+    position: relative;
+    height: 95vh;
+    background-image: url(../img/fidel-fernando-GuH4_xtKnnM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.6);
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    margin-bottom: 10rem;
+}
+header:hover {
+    filter: brightness(1);
+}
+
+.nav {
+    background-color: hsl(0, 0%, 0%);
+    height: 8rem;
+    color: white;
+
+}
+.nav .logo {
+    float: left;
+    width: 150px;
+}
+.nav ul {
+    float: right;
+}
+.nav .navlist {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+a {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 0.75rem;
+    font-weight: 600;
+}
+li a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+p, li {
+    font-size: 1.6em;
+    letter-spacing: 0.15em;
+}
+.width {
+    /* both are equal 90% = 1200px  5% each side margin */ 
+    max-width: 90%; 
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* WELCOME HOME DIV STYLING */
+#home {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+ #home h1 {
+    font-size: 7.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+#home h3 {
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(7, 7, 7);
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    border: 0.25rem solid white;
+    border-radius: 3rem;
+    padding: 1.9rem 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem 4rem;
+}
+.button:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 0.25rem solid rgb(0, 0, 0);;
+}
+
+
+
+
+
+
+
+
+
+/* SECTION 2: STYLING BELOW WELCOME HOME */
+.sdiv {
+    margin-bottom: 7rem;
+    height: 350px;
+    box-shadow: 0px 0px 20px 0px rgb(107, 105, 105);
+
+}
+.imgd1,.textd2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.imgd2,.textd1 {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.sdiv img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.textd {
+    background-image:  linear-gradient(270deg, rgb(221, 21, 191), rgb(225, 30, 231), rgb(169, 24, 209), #7A27B4ff, #662CBBff, #5332C2ff, #3F37C9ff);;
+    text-align: center;
+    padding: 7rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+/* SERVICES SECTION#3 */
+h2 {
+    font-size: 5rem;
+    text-align: center; 
+    color: white;
+}
+
+#service {
+margin: 15rem 0;
+background-image: url(../img/nicole-avagliano-qNM9zdGGPrg-unsplash.jpg);
+height: 90vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding: 7rem;
+}
+
+.servd {
+    margin: 0 calc(10%/6);
+    background-color: rgb(0, 0, 0,0.5);
+    width: 30%;
+    float: left;
+    border: 1px solid white;
+    border-radius: 3rem ;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+.servb { /*button of services*/
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0.25rem solid rgb(0, 0, 0);
+    border-radius: 3rem;
+    padding: 1.25rem 2rem;
+    margin: 2rem 0;
+}
+
+/* ###############    FOOTER CSS    ############ */
+footer {
+    height: 10rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.foota {
+    display: inline;
+}
+
+
+
+
+
+
+
+/* ABOUT SECTION */
+.abtbg {
+    height: 70vh;
+    background-image: url(../img/dariusz-sankowski-mj2NwYH3wBA-unsplash.jpg);
+    filter: brightness(0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+.aboutd {
+    color: rgb(0, 0, 0);
+}
+.bgh2 {
+    margin-top: 22rem;
+    font-size: 8rem;
+    display: inline-block;
+    border-bottom: 1rem double rgb(243, 243, 243); 
+}
+.aboutd p {
+    margin: 3rem;
+}
+.checkmark ul li {
+    line-height: 3rem;
+    background-color: #413F42;
+    list-style: none;
+    color: rgb(14, 13, 13);
+}
+.checkmark li::before {
+    color: rgb(250, 247, 247);
+    content: "\2713";
+    padding-right: 2rem;
+    font-weight: 600;
+
+}
+.counter {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 3rem;
+    border: 0.1rem solid rgb(0, 0, 0); 
+    width: 25%;
+    height: 18rem;
+    float: left;
+    margin-bottom: 10rem;
+}
+.counter span {
+    color: rgb(238, 238, 238);
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+
+
+
+/* CONTACT PAGE CSS */
+.contactbg {
+    height: 70vh;
+    background-image: url(../img/patrick-pahlke-G7wgKn7j_Rs-unsplash.jpg);
+    filter: brightness(0.9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.cdleft {
+    border: 0.25rem solid rgb(7, 7, 7);
+    height: 75vh;
+    border-radius: 2rem;
+    width: 49%;
+    float: left;
+}
+.cdright {
+    border: 0.25rem solid rgb(32, 32, 32);
+    border-radius: 2rem;
+    height: 75vh;
+    width: 49%;
+    float: right;
+}
+.cdiv {
+    padding: 2rem;
+}
+.cdleft img {
+    margin-top: 12rem;
+    width: 100%;
+    border-radius: 4rem; 
+}
+.cdleft i {
+    padding: 2rem;
+    display: inline;
+}
+.cdleft h3 {
+    display: inline;
+}
+
+/* CONTACT FORM CSS */
+
+.cdright {
+    float: right;
+}
+.cdright p {
+    margin-bottom: 2rem;
+    border-bottom: 0.4rem solid grey;
+}
+.cdright label {
+    display: block;
+    font-size: 1.5rem;
+}
+.cdright input, textarea {
+    background-color: grey;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 2.5rem;
+}
+.form textarea {
+    width: 100%;
+    height: 24rem;
+}
+.form button {
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: block;
+    margin: 1rem auto;
+    background-color: grey;
+    color: rgb(10, 10, 10);
+    padding: 1.7rem 8rem;
+    border: 0.25rem solid rgb(0, 0, 0);
+    border-radius: 7rem;
+}
+.form button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+
+
+/* ###........  MEDIA QUERY ........................ */
+/* ###........   MAKING WEBSITE RESPONSIVE ........................ */
+@media(max-width: 500px) {
+
+
+    /* ........ NAVIGATION SECTION ................ */
+    .width {
+        max-width: 100%;
+    }
+    html {
+        font-size: 50%;
+    }
+    .nav .navlist{
+        float: none;
+        font-size: 0.5px;
+    }
+    .nav .logo {
+        float: none;
+        width: 120px;
+    }
+        /* ........ WELCOME SECTION ................ */
+    header {
+        background-position: right;
+    }
+    #home {
+        text-align: center;
+        position: absolute;
+        top: 35%;
+        left: 80%;
+        /* transform: translate(-100%, -5%); */
+    }
+    #home h1, #home h3 {
+        color: white;
+    }
+
+
+
+
+}
+
